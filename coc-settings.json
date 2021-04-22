@@ -1,0 +1,6 @@
+
+    {
+    "rust-analyzer.enable" : true,
+    "rust-analyzer.inlayHints.typeHints" : true,
+    }
+

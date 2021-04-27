@@ -14,8 +14,6 @@ set noswapfile
 set cmdheight=2
 set hidden
 set scrolloff=8
-"maps Ctrl+L to :noh<CR>
-nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 "inoremap " ""<left>
 "inoremap ' ''<left>
 "inoremap ( ()<left>
@@ -49,3 +47,8 @@ nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
 " vertical resize
 nnoremap <silent> <Leader>] :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
 nnoremap <silent> <Leader>[ :exe "vertical resize " . (winwidth(0) * 2/3)<CR>
+"maps Ctrl+L to :noh<CR>
+nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+
+inoremap <C-s> <ESC>A;
+nnoremap <C-s> <ESC>A;<ESC>

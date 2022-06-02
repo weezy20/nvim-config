@@ -33,8 +33,8 @@ Plug 'pechorin/any-jump.vim'
 Plug 'Raimondi/delimitMate'
 call plug#end()
 
-colorscheme sonokai
-"colorscheme gruvbox
+"colorscheme sonokai
+colorscheme gruvbox
 let g:rustfmt_autosave = 1
 "let g:syntastic_check_on_wq=0
 

@@ -1,10 +1,12 @@
 Place vim config at : 
 `~/.config/nvim/init.vim`
 
-Install vim plug for nvim (not vim) : https://github.com/junegunn/vim-plug
+On windows `~/AppData/Local/nvim`
+
+Install vim plug for nvim (not vim) Follow instructions here : https://github.com/junegunn/vim-plug
 
 then run vim command `:PlugInstall`
 
 Finally install coc.nvim : https://github.com/neoclide/coc.nvim
 
-And install rustanalyzer `:CocInstall coc-rust-analyzer`
+Additionally install rustanalyzer `:CocInstall coc-rust-analyzer`
